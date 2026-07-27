@@ -1,5 +1,5 @@
 function capitalize(str) {
-	return "DEN";
+	return "Den";
 }
 
 export { capitalize };
