@@ -3,3 +3,7 @@ import { capitalize } from "./capitalize.js";
 test("All letters lower case", () => {
 	expect(capitalize("den")).toBe("Den");
 });
+
+test("Noting", () => {
+	expect(capitalize("")).toBe("");
+})
