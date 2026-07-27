@@ -11,3 +11,7 @@ test("Nothing", () => {
 test("All letters capital", () => {
 	expect(capitalize("ANKARA")).toBe("ANKARA");
 });
+
+test("First char is a digit", () => {
+	expect(capitalize("1asd")).toBe("1asd");
+});
